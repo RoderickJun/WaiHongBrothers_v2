@@ -1,0 +1,51 @@
+/* Extra dictionary keys for services.html (the full services overview page).
+   Loaded after js/i18n.js, which defines WHB_I18N and the apply/switch logic.
+   Reuses homepage services.* keys wherever this page's text is identical. */
+Object.assign(WHB_I18N.en, {
+  'servicesPage.c1title': 'Flat Roof / Slab Waterproofing System',
+  'servicesPage.c2title': 'Roof Tiles Repair &amp; Replacement',
+  'servicesPage.c2desc': 'Ceramic and concrete tile repair and replacement, first line of defense against sun and rain.',
+  'servicesPage.c3title': 'Roof Tiles Installation',
+  'servicesPage.c3desc': 'Professional new-tile installation protecting properties from harsh weather.',
+  'servicesPage.c5title': 'Roof Trusses Replacement, Strengthen &amp; Repair',
+  'servicesPage.c6title': 'Asphalt Shingle Roof Replacement',
+  'servicesPage.c6desc': 'Fiberglass-based shingles coated with asphalt and mineral granules.',
+  'servicesPage.c7desc': 'Full roof overhauls for aging structures, backed by our warranty.',
+  'servicesPage.c9title': 'UV / Heat Insulation Ceramic Coating',
+  'servicesPage.c9desc': 'A reflective coating layer applied over existing tiles to reduce heat absorption.',
+  'servicesPage.c10title': 'Heat &amp; Sound Insulation System',
+  'servicesPage.c10desc': 'Temperature regulation and noise reduction technology for buildings.',
+  'servicesPage.c1linkLabel': 'Flat Roof Waterproofing',
+  'servicesPage.c2linkLabel': 'Roof Tiles Repair',
+  'servicesPage.c3linkLabel': 'Roof Tiles Installation',
+  'servicesPage.c5linkLabel': 'Roof Trusses',
+  'servicesPage.c6linkLabel': 'Asphalt Shingle Replacement',
+  'servicesPage.c9linkLabel': 'Ceramic Coating',
+  'servicesPage.c10linkLabel': 'Heat &amp; Sound Insulation',
+  'servicesPage.ctaTitle': 'Not Sure Which Service You Need?',
+  'servicesPage.ctaDesc': "Start with a free site inspection — we'll diagnose the root cause and recommend the right fix."
+});
+Object.assign(WHB_I18N['zh-CN'], {
+  'servicesPage.c1title': '平屋顶／楼板防水系统',
+  'servicesPage.c2title': '屋瓦维修与更换',
+  'servicesPage.c2desc': '陶瓷瓦与混凝土瓦的维修与更换，是抵御日晒雨淋的第一道防线。',
+  'servicesPage.c3title': '屋瓦安装',
+  'servicesPage.c3desc': '专业全新瓦片安装，为建筑抵御恶劣天气提供保护。',
+  'servicesPage.c5title': '屋顶桁架更换、加固与维修',
+  'servicesPage.c6title': '沥青瓦屋顶更换',
+  'servicesPage.c6desc': '以沥青与矿物颗粒涂层处理的玻璃纤维基材瓦片。',
+  'servicesPage.c7desc': '针对老旧结构进行全面屋顶翻新，并提供保固。',
+  'servicesPage.c9title': '紫外线／隔热陶瓷涂层',
+  'servicesPage.c9desc': '在现有瓦片上涂覆反射涂层，以减少热量吸收。',
+  'servicesPage.c10title': '隔热隔音系统',
+  'servicesPage.c10desc': '为建筑物提供温度调节与噪音降低技术。',
+  'servicesPage.c1linkLabel': '平屋顶防水工程',
+  'servicesPage.c2linkLabel': '屋瓦维修更换',
+  'servicesPage.c3linkLabel': '屋瓦安装',
+  'servicesPage.c5linkLabel': '屋顶桁架',
+  'servicesPage.c6linkLabel': '沥青瓦更换',
+  'servicesPage.c9linkLabel': '陶瓷涂层',
+  'servicesPage.c10linkLabel': '隔热隔音',
+  'servicesPage.ctaTitle': '不确定需要哪项服务？',
+  'servicesPage.ctaDesc': '从免费现场勘察开始——我们会诊断问题根源，并提出正确的解决方案。'
+});
