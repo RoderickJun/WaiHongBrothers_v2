@@ -348,8 +348,10 @@ body.light-top .site-header {
 .v2-hero { position: relative; display: block; min-height: 0; background: var(--v2-black); color: #fff; overflow: visible; }
 .v2-hero-stage { position: relative; width: 100%; min-height: 100vh; min-height: 100svh; overflow: hidden; display: flex; align-items: center; justify-content: center; }
 .v2-hero .hero-media { position: absolute; inset: 0; z-index: 0; }
-.v2-hero .hero-media img, .v2-hero .hero-media canvas { width: 100%; height: 100%; object-fit: cover; }
-.v2-hero .hero-media::after { background: linear-gradient(180deg, rgba(9,9,11,0.55) 0%, rgba(9,9,11,0.35) 45%, rgba(9,9,11,0.75) 100%); }
+.v2-hero .hero-media img, .v2-hero .hero-media canvas { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.18) saturate(1.1); }
+/* light veil only — just enough at the top (header) and bottom (buttons) to hold contrast */
+.v2-hero .hero-media::after { background: linear-gradient(180deg, rgba(9,9,11,0.32) 0%, rgba(9,9,11,0.1) 45%, rgba(9,9,11,0.42) 100%); }
+.v2-hero .hero-tagline, .v2-hero .hero-title, .v2-hero .hero-desc { text-shadow: 0 2px 18px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.45); }
 .v2-hero-mask { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; }
 
 .v2-hero .hero-content {
