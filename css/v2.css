@@ -393,14 +393,12 @@ body.light-top .site-header {
   padding: 90px var(--gutter);
   text-align: center;
 }
-.v2-final-title {
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 5vw, 4.2rem);
-  font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: 0.01em;
-  color: #fff;
-  margin: 0 auto 18px;
+.v2-final-logo {
+  display: block;
+  width: clamp(220px, 30vw, 420px);
+  height: auto;
+  margin: 0 auto 30px;
+  filter: drop-shadow(0 8px 24px rgba(1,20,46,0.35));
 }
 .v2-final-rating { display: flex; justify-content: center; margin-bottom: 46px; }
 .v2-final-rating .google-rating-badge { background: rgba(9,9,11,0.22); border-color: rgba(255,255,255,0.25); }
