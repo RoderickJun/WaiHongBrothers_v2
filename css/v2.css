@@ -354,12 +354,22 @@ body.light-top .site-header {
 .v2-hero .hero-tagline, .v2-hero .hero-title, .v2-hero .hero-desc { text-shadow: 0 2px 22px rgba(0,0,0,0.7), 0 1px 4px rgba(0,0,0,0.6); }
 .v2-hero-mask { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; }
 
+.v2-hero-opening { width: 100%; padding: 110px 16px 80px; }
+/* frosted panel behind the hero text, so the footage itself can stay fully bright */
 .v2-hero .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 980px;
+  width: auto;
+  max-width: 940px;
+  margin-inline: auto;
   text-align: center;
-  padding-block: 140px 110px;
+  padding: clamp(28px, 4vw, 48px) clamp(20px, 4.5vw, 56px);
+  background: rgba(9,9,11,0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.25);
 }
 .v2-hero .hero-tagline { justify-content: center; letter-spacing: 0.26em; font-size: 0.72rem; }
 .v2-hero .hero-tagline::before { display: none; }
@@ -508,7 +518,8 @@ body.light-top .site-header {
   .brand img { height: 38px; }
   .services-grid { grid-template-columns: 1fr; }
   .page-banner { min-height: 60vh; }
-  .v2-hero .hero-content { padding-block: 120px 90px; }
+  .v2-hero-opening { padding: 96px 12px 70px; }
+  .v2-hero .hero-content { border-radius: 20px; }
   .v2-hero.is-enhanced .v2-hero-final { padding-top: 70px; justify-content: center; }
   .v2-final-rating { margin-bottom: 28px; }
   .v2-metrics { gap: 26px 14px; }
